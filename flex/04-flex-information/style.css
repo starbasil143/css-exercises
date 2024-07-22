@@ -1,5 +1,6 @@
 body {
   font-family: 'Courier New', Courier, monospace;
+  text-align: center;
 }
 
 img {
@@ -15,12 +16,7 @@ img {
 }
 
 .fruit{
-  display: flex;
-  flex-flow: column nowrap;
-  gap: 5px;
-  align-items: center;
-  text-align: center;
-  flex: 0 1 200px;
+  max-width: 200px;
 }
 
 .infos{
